@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            width: 35em;
+            height: 4rem;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;   
+        }
+        input:focus{
+            outline: 0;
+            border: 2px solid blue;
+            background-image: url(./search-outline.svg);
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        img{
+            position:relative;
+            right: 35px; 
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="search" name="search" placeholder="search" >
+      <img src="./search-outline.svg" height="30px">
+        
+    </div>
+</body>
+</html> 
